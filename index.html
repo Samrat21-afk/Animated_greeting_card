@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated card project</title>
+</head>
+<link rel = "stylesheet" href = "style.css">
+<body class="box">
+    <h3>Animated card <br>project <br>(Made by Samrat)</h3>
+    <p> Click on the card !!</p>
+    
+    <div class= "container">
+        <div class= "birthday">
+            <div class= "envelope"></div>
+                <div class = "front"></div>
+                <div class = "card">
+                    <div class = "text">Thank</br>you</br>for visiting</br> -Samrat &lt;3</div>
+                    <div class="heart"></div>
+                </div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>$(document).ready(function() {
+    let isUp = false;
+    $(".container").click(function() {
+        if (!isUp) {
+            $(".card").stop().animate({
+                top: "-90px"
+            }, "slow");
+        } else {
+            $(".card").stop().animate({
+                top: "5px"
+            }, "slow");
+        }
+        isUp = !isUp;
+    });
+});</script>
+</body>
+</html>

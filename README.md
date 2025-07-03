@@ -6,6 +6,10 @@ Hello everyone, this is the repository for the animated greeting card webpage. T
 
 This is a fun and interactive animated greeting card project built using HTML, CSS, jQuery, and a little creativity ✨. When the user clicks on the envelope, a thank-you card pops out with animated hearts floating around — perfect for digital birthday or thank-you greetings!
 
+## DEMO
+
+<video src = "DemoVideo.mp4" controls width ="600"></video>
+
 ## 🚀 Features
 
 - 📩 Animated envelope opening on click

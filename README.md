@@ -8,7 +8,7 @@ This is a fun and interactive animated greeting card project built using HTML, C
 
 ## DEMO
 
-<video src = "DemoVideo.mp4" controls width ="600"></video>
+![Demo](Demo.gif)
 
 ## 🚀 Features
 
